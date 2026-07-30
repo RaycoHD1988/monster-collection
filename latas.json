@@ -3,18 +3,18 @@
     "id": 1,
     "nombre": "Monster Energy Ultra White (Zero Ultra)",
     "tags": ["ultra", "blanca", "zero", "citricos"],
-    "imagen": "imagenes/ultra-white.jfif"
+    "imagen": "imagenes/ultra-white.jpg"
   },
   {
     "id": 2,
     "nombre": "Monster Energy Mango Loco",
     "tags": ["mango", "juice", "juiced", "frutal"],
-    "imagen": "imagenes/mango-loco.jfif"
+    "imagen": "imagenes/mango-loco.jpg"
   },
   {
     "id": 3,
     "nombre": "Monster Energy Ultra Paradise",
     "tags": ["ultra", "verde", "kiwi", "zero"],
-    "imagen": "imagenes/ultra-paradise.jfif"
+    "imagen": "imagenes/ultra-paradise.jpg"
   }
 ]

@@ -3,29 +3,414 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Colección de Monster de Nelly</title>
+  <title>Colección Monster Energy</title>
   <style>
-    body { font-family: system-ui, sans-serif; background-color: #121212; color: #fff; margin: 0; padding: 20px; }
-    h1 { text-align: center; color: #00ff41; }
-    .search-box { display: flex; justify-content: center; margin-bottom: 25px; }
-    input { width: 90%; max-width: 500px; padding: 12px 18px; font-size: 16px; border-radius: 25px; border: 2px solid #00ff41; background: #222; color: #fff; outline: none; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 20px; max-width: 1200px; margin: 0 auto; }
-    .card { background: #1e1e1e; border-radius: 12px; padding: 12px; text-align: center; border: 1px solid #333; transition: transform 0.2s; }
-    .card:hover { transform: translateY(-4px); }
-    .card img { width: 100%; height: 200px; object-fit: contain; border-radius: 8px; }
-    .card h3 { font-size: 14px; margin: 10px 0 0; color: #eee; }
+    :root {
+      --bg-color: #121212;
+      --card-bg: #1e1e1e;
+      --text-color: #e0e0e0;
+      --accent-color: #76ff03;
+      --border-color: #333;
+      
+      --bg-nelly: #122818;
+      --border-nelly: #1f4a27;
+      --bg-no-nelly: #2a1515;
+      --border-no-nelly: #4a2121;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: var(--accent-color);
+      margin-bottom: 20px;
+    }
+
+    /* Panel de controles y filtros */
+    .panel-filtros {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+      background-color: var(--card-bg);
+      padding: 15px;
+      border-radius: 10px;
+      border: 1px solid var(--border-color);
+    }
+
+    .panel-filtros input[type="text"],
+    .panel-filtros select {
+      padding: 8px 14px;
+      border-radius: 6px;
+      border: 1px solid var(--border-color);
+      background-color: #2b2b2b;
+      color: #fff;
+      font-size: 0.95rem;
+      transition: all 0.3s ease;
+    }
+
+    .panel-filtros input[type="text"] {
+      min-width: 220px;
+    }
+
+    /* Estilos dinámicos para el desplegable de Nelly */
+    #selectNelly.estado-tiene {
+      background-color: var(--bg-nelly);
+      border-color: var(--accent-color);
+      color: var(--accent-color);
+      font-weight: bold;
+    }
+
+    #selectNelly.estado-falta {
+      background-color: var(--bg-no-nelly);
+      border-color: #ff5252;
+      color: #ff5252;
+      font-weight: bold;
+    }
+
+    /* Estilo para el contador */
+    .bar-contador {
+      text-align: center;
+      font-size: 0.95rem;
+      color: #aaa;
+      margin-bottom: 20px;
+    }
+
+    .bar-contador span {
+      color: var(--accent-color);
+      font-weight: bold;
+    }
+
+    /* Grid de tarjetas */
+    .grid-latas {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .tarjeta-lata {
+      position: relative;
+      border-radius: 10px;
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      overflow: hidden;
+    }
+
+    .tarjeta-lata.es-nelly {
+      background-color: var(--bg-nelly);
+      border: 1px solid var(--border-nelly);
+    }
+
+    .tarjeta-lata.no-nelly {
+      background-color: var(--bg-no-nelly);
+      border: 1px solid var(--border-no-nelly);
+    }
+
+    .tarjeta-lata:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6);
+    }
+
+    .bandera-pais {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      z-index: 2;
+    }
+
+    .bandera-pais img {
+      width: 28px;
+      height: 20px;
+      object-fit: cover;
+      border-radius: 3px;
+      box-shadow: 0px 2px 5px rgba(0,0,0,0.6);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .imagen-container {
+      width: 100%;
+      height: 180px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+
+    .imagen-container img {
+      max-height: 100%;
+      max-width: 100%;
+      object-fit: contain;
+    }
+
+    .contenido-lata h3 {
+      font-size: 0.95rem;
+      margin: 0 0 8px 0;
+      color: #fff;
+      padding-right: 32px;
+    }
+
+    .badge-estado {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: bold;
+      padding: 3px 8px;
+      border-radius: 12px;
+      margin-bottom: 8px;
+    }
+
+    .es-nelly .badge-estado {
+      background-color: rgba(118, 255, 3, 0.15);
+      color: var(--accent-color);
+      border: 1px solid var(--accent-color);
+    }
+
+    .no-nelly .badge-estado {
+      background-color: rgba(255, 82, 82, 0.15);
+      color: #ff5252;
+      border: 1px solid #ff5252;
+    }
+
+    .info-adquisicion {
+      margin-top: 10px;
+      font-size: 0.8rem;
+      color: #ccc;
+      background-color: rgba(0, 0, 0, 0.3);
+      padding: 8px;
+      border-radius: 6px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      border-left: 3px solid var(--accent-color);
+    }
+
+    .no-nelly .info-adquisicion {
+      border-left-color: #ff5252;
+    }
+
+    .sin-resultados {
+      grid-column: 1 / -1;
+      text-align: center;
+      padding: 40px;
+      color: #888;
+      font-size: 1.1rem;
+    }
   </style>
 </head>
 <body>
 
-  <h1>Colección Monster 🥫</h1>
+  <h1>🥤 Colección Monster Energy</h1>
 
-  <div class="search-box">
-    <input type="text" id="searchInput" placeholder="Buscar lata (ej: ultra, mango, zero)...">
+  <!-- Controles y Filtros -->
+  <div class="panel-filtros">
+    <input type="text" id="inputBusqueda" placeholder="Buscar por nombre, tag o lugar..." />
+    
+    <!-- Desplegable de Colección Nelly -->
+    <select id="selectNelly">
+      <option value="todos">⭐ Colección Nelly (Todas)</option>
+      <option value="tiene">✓ Nelly tiene</option>
+      <option value="falta">✗ Nelly no tiene</option>
+    </select>
+
+    <!-- Desplegable de Edición Japonesa -->
+    <select id="selectJaponesa">
+      <option value="todos">🇯🇵 Edición Japonesa (Todas)</option>
+      <option value="true">🌸 Solo Japonesas</option>
+      <option value="false">🌐 No Japonesas</option>
+    </select>
+
+    <!-- Desplegable de países de adquisición -->
+    <select id="selectPais">
+      <option value="todos">🌍 Todos los países de adquisición</option>
+    </select>
   </div>
 
-  <div class="grid" id="container"></div>
+  <!-- Contador de latas mostradas -->
+  <div class="bar-contador" id="contadorLatas">
+    Mostrando <span id="cantVisibles">0</span> de <span id="cantTotal">0</span> latas
+  </div>
 
-  <script src="script.js"></script>
+  <!-- Contenedor de la cuadrícula -->
+  <div class="grid-latas" id="gridLatas"></div>
+
+  <script>
+    let latas = [];
+    let filtroNelly = 'todos';
+    let filtroJaponesa = 'todos';
+    let paisSeleccionado = 'todos';
+
+    const nombresPaises = {
+      'JP': 'Japón',
+      'GB': 'Reino Unido',
+      'US': 'EE. UU.',
+      'ES': 'España',
+      'PT': 'Portugal'
+    };
+
+    function obtenerUrlBandera(codigoPais) {
+      if (!codigoPais || codigoPais.trim() === '') return '';
+      return `https://flagcdn.com/w40/${codigoPais.toLowerCase()}.png`;
+    }
+
+    fetch('latas.json')
+      .then(response => response.json())
+      .then(data => {
+        latas = data.sort((a, b) => a.nombre.localeCompare(b.nombre));
+        poblarDesplegablePaises(latas);
+        aplicarFiltros();
+      })
+      .catch(err => {
+        console.error("Error al cargar latas.json:", err);
+      });
+
+    function poblarDesplegablePaises(lista) {
+      const paisesUnicos = [...new Set(lista.map(l => l.pais_adquisicion).filter(p => p && p.trim() !== ''))];
+      const select = document.getElementById('selectPais');
+
+      paisesUnicos.forEach(codigoPais => {
+        const codigoUpper = codigoPais.toUpperCase();
+        const nombrePais = nombresPaises[codigoUpper] || codigoUpper;
+        
+        const option = document.createElement('option');
+        option.value = codigoUpper;
+        option.textContent = nombrePais;
+        select.appendChild(option);
+      });
+    }
+
+    function crearTarjetaLataHTML(lata) {
+      const codigoPais = lata.pais_adquisicion ? lata.pais_adquisicion.trim().toUpperCase() : '';
+      const urlBandera = obtenerUrlBandera(codigoPais);
+      const nombrePais = nombresPaises[codigoPais] || codigoPais;
+      
+      const htmlBandera = urlBandera 
+        ? `<div class="bandera-pais" title="País de adquisición: ${nombrePais}">
+             <img src="${urlBandera}" alt="Bandera ${nombrePais}">
+           </div>` 
+        : '';
+
+      const claseNelly = lata.nelly ? 'es-nelly' : 'no-nelly';
+      const textoBadge = lata.nelly ? '✓ En colección' : '✗ Falta';
+
+      let htmlAdquisicion = '';
+      if (lata.fecha_adquisicion || lata.lugar_especifico) {
+        const fechaFormateada = lata.fecha_adquisicion 
+          ? new Date(lata.fecha_adquisicion).toLocaleDateString('es-ES', { day: 'numeric', month: 'short', year: 'numeric' }) 
+          : '';
+        
+        htmlAdquisicion = `
+          <div class="info-adquisicion">
+            ${fechaFormateada ? `<span>📅 ${fechaFormateada}</span>` : ''}
+            ${lata.lugar_especifico ? `<span>📍 ${lata.lugar_especifico}</span>` : ''}
+          </div>
+        `;
+      }
+
+      return `
+        <div class="tarjeta-lata ${claseNelly}" data-imagen="${lata.imagen}">
+          ${htmlBandera}
+          <div class="imagen-container">
+            <img src="${lata.imagen}" alt="${lata.nombre}" loading="lazy" onerror="this.src='https://via.placeholder.com/150?text=Sin+Imagen'" />
+          </div>
+          <div class="contenido-lata">
+            <h3>${lata.nombre}</h3>
+            <span class="badge-estado">${textoBadge}</span>
+            ${htmlAdquisicion}
+          </div>
+        </div>
+      `;
+    }
+
+    function actualizarContador(visiblesCount, totalCount) {
+      document.getElementById('cantVisibles').textContent = visiblesCount;
+      document.getElementById('cantTotal').textContent = totalCount;
+    }
+
+    function renderizarGrid(lista) {
+      const contenedor = document.getElementById('gridLatas');
+      
+      actualizarContador(lista.length, latas.length);
+
+      if (lista.length === 0) {
+        contenedor.innerHTML = `<div class="sin-resultados">No se encontraron latas con estos filtros.</div>`;
+        return;
+      }
+      contenedor.innerHTML = lista.map(lata => crearTarjetaLataHTML(lata)).join('');
+    }
+
+    function actualizarEstiloSelectNelly() {
+      const select = document.getElementById('selectNelly');
+      select.classList.remove('estado-tiene', 'estado-falta');
+
+      if (filtroNelly === 'tiene') {
+        select.classList.add('estado-tiene');
+      } else if (filtroNelly === 'falta') {
+        select.classList.add('estado-falta');
+      }
+    }
+
+    function aplicarFiltros() {
+      const textoBusqueda = document.getElementById('inputBusqueda').value.toLowerCase().trim();
+
+      const resultado = latas.filter(lata => {
+        // 1. Filtro Colección Nelly
+        if (filtroNelly === 'tiene' && !lata.nelly) return false;
+        if (filtroNelly === 'falta' && lata.nelly) return false;
+
+        // 2. Filtro Edición Japonesa (es_japonesa)
+        if (filtroJaponesa === 'true' && !lata.es_japonesa) return false;
+        if (filtroJaponesa === 'false' && lata.es_japonesa) return false;
+
+        // 3. Filtro por País de adquisición
+        if (paisSeleccionado !== 'todos') {
+          const paisLata = lata.pais_adquisicion ? lata.pais_adquisicion.trim().toUpperCase() : '';
+          if (paisLata !== paisSeleccionado) return false;
+        }
+
+        // 4. Búsqueda por texto (nombre, tags o lugar)
+        if (textoBusqueda !== '') {
+          const coincideNombre = lata.nombre ? lata.nombre.toLowerCase().includes(textoBusqueda) : false;
+          const coincideTag = lata.tags ? lata.tags.some(tag => tag.toLowerCase().includes(textoBusqueda)) : false;
+          const coincideLugar = lata.lugar_especifico ? lata.lugar_especifico.toLowerCase().includes(textoBusqueda) : false;
+          
+          if (!coincideNombre && !coincideTag && !coincideLugar) return false;
+        }
+
+        return true;
+      });
+
+      renderizarGrid(resultado);
+    }
+
+    // Escuchadores de eventos
+    document.getElementById('inputBusqueda').addEventListener('input', aplicarFiltros);
+
+    document.getElementById('selectNelly').addEventListener('change', (e) => {
+      filtroNelly = e.target.value;
+      actualizarEstiloSelectNelly();
+      aplicarFiltros();
+    });
+
+    document.getElementById('selectJaponesa').addEventListener('change', (e) => {
+      filtroJaponesa = e.target.value;
+      aplicarFiltros();
+    });
+
+    document.getElementById('selectPais').addEventListener('change', (e) => {
+      paisSeleccionado = e.target.value;
+      aplicarFiltros();
+    });
+
+  </script>
 </body>
 </html>

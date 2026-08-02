@@ -1,20 +1,1692 @@
 [
   {
-    "id": 1,
     "nombre": "Monster Energy Ultra White (Zero Ultra)",
     "tags": ["ultra", "blanca", "zero", "citricos"],
-    "imagen": "imagenes/ultra-white.jpg"
+    "imagen": "imagenes/ultra-white.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
   },
   {
-    "id": 2,
+    "nombre": "Monster Energy Ultra White (Zero Ultra)",
+    "tags": ["ultra", "blanca", "zero", "citricos"],
+    "imagen": "imagenes/ultra-white-jp.jpg",
+    "nelly": true,
+    "es_japonesa": true,
+    "fecha_adquisicion": "2024-04",
+    "pais_adquisicion": "JP",
+    "lugar_especifico": "Japon"
+  },
+  {
     "nombre": "Monster Energy Mango Loco",
     "tags": ["mango", "juice", "juiced", "frutal"],
-    "imagen": "imagenes/mango-loco.jpg"
+    "imagen": "imagenes/mango-loco.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
   },
   {
-    "id": 3,
-    "nombre": "Monster Energy Ultra Paradise",
-    "tags": ["ultra", "verde", "kiwi", "zero"],
-    "imagen": "imagenes/ultra-paradise.jpg"
+    "nombre": "Monster Energy Mango Loco",
+    "tags": ["mango", "juice", "juiced", "frutal"],
+    "imagen": "imagenes/mango-loco-jp.jpg",
+    "nelly": true,
+    "es_japonesa": true,
+    "fecha_adquisicion": "2024-04",
+    "pais_adquisicion": "JP",
+    "lugar_especifico": "Japon"
+  },
+  {
+    "nombre": "Monster Energy Ultra Paradise (Zero Sugar)",
+    "tags": ["ultra", "verde", "kiwi", "zero","sugar"],
+    "imagen": "imagenes/ultra-paradise.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Energy Ultra Paradise (Zero Sugar)",
+    "tags": ["ultra", "verde", "kiwi", "zero","sugar"],
+    "imagen": "imagenes/ultra-paradise-jp.jpg",
+    "nelly": true,
+    "es_japonesa": true,
+    "fecha_adquisicion": "2024-04",
+    "pais_adquisicion": "JP",
+    "lugar_especifico": "Japon"
+  },
+  {
+    "nombre": "Monster Energy Original (Oscar Piastri Edition)",
+    "tags": ["original", "clasica", "verde","Oscar","piastri","edicion","limitada"],
+    "imagen": "imagenes/original-oscar-piastri.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Energy Original (Apex Edition)",
+    "tags": ["original", "clasica", "verde","apex","edicion","limitada"],
+    "imagen": "imagenes/original-apex.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Energy Original",
+    "tags": ["original", "clasica", "verde"],
+    "imagen": "imagenes/original.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Energy Original",
+    "tags": ["original", "clasica", "verde"],
+    "imagen": "imagenes/original-jp.jpg",
+    "nelly": true,
+    "es_japonesa": true,
+    "fecha_adquisicion": "2024-04",
+    "pais_adquisicion": "JP",
+    "lugar_especifico": "Japon"
+  },
+  {
+    "nombre": "Monster Energy Original (Cristal)",
+    "tags": ["original", "clasica", "verde"],
+    "imagen": "imagenes/original-cristal-jp.jpg",
+    "nelly": false,
+    "es_japonesa": true,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "JP",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Energy Import",
+    "tags": ["original", "clasica", "verde","import"],
+    "imagen": "imagenes/original-import.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Energy Mega",
+    "tags": ["green", "tapon","original"],
+    "imagen": "imagenes/mega.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Energy Mega (Tapón de Rosca)",
+    "tags": ["green", "tapon", "rosca","original"],
+    "imagen": "imagenes/mega-tapon.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Lo-Carb",
+    "tags": ["original", "azul", "baja calorias"],
+    "imagen": "imagenes/lo-carb.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Electric Blue",
+    "tags": ["original", "azul", "electric"],
+    "imagen": "imagenes/electric-blue.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster absolutely Zero (Zero Sugar)",
+    "tags": ["absolutely", "zero", "azul", "plata","sugar","original"],
+    "imagen": "imagenes/absolutely-sugar.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "2026-07-31",
+    "pais_adquisicion": "ES",
+    "lugar_especifico": "Carrefour, Mallorca, España"
+  },
+  {
+    "nombre": "Monster Assault (Camuflaje)",
+    "tags": ["camuflaje", "roja", "cola","super","assault"],
+    "imagen": "imagenes/assault_camuflaje.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "ES",
+    "lugar_especifico": "Arenal, Mallorca, España"
+  },
+  {
+    "nombre": "Monster Assault (Camuflaje) Super Cola",
+    "tags": ["camuflaje", "roja", "cola", "super", "355ml"],
+    "imagen": "imagenes/assault_camuflaje-jp.jpg",
+    "nelly": true,
+    "es_japonesa": true,
+    "fecha_adquisicion": "2024-04",
+    "pais_adquisicion": "JP",
+    "lugar_especifico": "Japon"
+  },
+  {
+    "nombre": "Monster Assault (Negra)",
+    "tags": ["negra", "roja", "cola","super","assault"],
+    "imagen": "imagenes/assault_negra.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Assault (Negra)",
+    "tags": ["negra", "roja", "cola","super","assault","cristal"],
+    "imagen": "imagenes/assault_negra-cristal-jp.jpg",
+    "nelly": false,
+    "es_japonesa": true,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "JP",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Reserve Watermelon",
+    "tags": ["reserve", "sandia"],
+    "imagen": "imagenes/reserve-watermelon.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Reserve Watermelon",
+    "tags": ["reserve", "sandia"],
+    "imagen": "imagenes/reserve-watermelon-jp.jpg",
+    "nelly": true,
+    "es_japonesa": true,
+    "fecha_adquisicion": "2024-04",
+    "pais_adquisicion": "JP",
+    "lugar_especifico": "Japon"
+  },
+  {
+    "nombre": "Monster Reserve White Pineapple",
+    "tags": ["reserve", "pina","white","pineapple"],
+    "imagen": "imagenes/reserve-pineapple.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Reserve Orange Dreamsicle",
+    "tags": ["reserve", "naranja", "crema"],
+    "imagen": "imagenes/reserve-dreamsicle-orange.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Strawberry Shot",
+    "tags": ["fresa", "shot","verde","frutal"],
+    "imagen": "imagenes/strawberry-shot.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Strawberry Shot (Zero Sugar)",
+    "tags": ["fresa", "shot","verde","frutal","zero","sugar"],
+    "imagen": "imagenes/strawberry-shot-zero.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Orange Dreamsicle",
+    "tags": ["reserve", "naranja", "crema","dreamsicle"],
+    "imagen": "imagenes/dreamsicle-orange.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Ultra Rosa Zero Sugar",
+    "tags": ["ultra", "rosa", "zero", "frutal","sugar"],
+    "imagen": "imagenes/ultra-rosa.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Ultra Fiesta Zero Sugar",
+    "tags": ["ultra", "turquesa", "zero","sugar","fiesta"],
+    "imagen": "imagenes/ultra-fiesta.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Ultra Fiesta Mango Zero Sugar",
+    "tags": ["ultra", "turquesa", "mango", "zero","sugar","fiesta"],
+    "imagen": "imagenes/ultra-fiesta-mango.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Ultra Watermelon (Zero Sugar)",
+    "tags": ["ultra", "sandia", "roja", "zero"],
+    "imagen": "imagenes/ultra-watermelon.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Ultra Citrion (Zero Sugar)",
+    "tags": ["ultra", "morada", "zero", "uva","sugar"],
+    "imagen": "imagenes/ultra-citrion.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Ultra Violet (Zero Sugar)",
+    "tags": ["ultra", "morada", "zero", "uva","sugar"],
+    "imagen": "imagenes/ultra-violet.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Ultra Violet (Zero Sugar)",
+    "tags": ["ultra", "morada", "zero", "uva","sugar"],
+    "imagen": "imagenes/ultra-violet-jp.jpg",
+    "nelly": true,
+    "es_japonesa": true,
+    "fecha_adquisicion": "2024-04",
+    "pais_adquisicion": "JP",
+    "lugar_especifico": "Japon"
+  },
+  {
+    "nombre": "Monster Ultra Red (Zero Sugar)",
+    "tags": ["ultra", "roja", "zero", "frutos rojos","sugar"],
+    "imagen": "imagenes/ultra-red.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Ultra Blue (Zero Sugar)",
+    "tags": ["ultra", "azul", "zero", "sugar"],
+    "imagen": "imagenes/ultra-blue.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Ultra Blue Hawaiian (Zero Sugar)",
+    "tags": ["ultra", "azul", "zero","sugar","hawaiian"],
+    "imagen": "imagenes/ultra-blue-hawaiian.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Ultra Sunrise (Zero Sugar)",
+    "tags": ["ultra", "naranja", "zero", "citrico","sugar"],
+    "imagen": "imagenes/ultra-sunrise.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Ultra Black (Zero Cukru)",
+    "tags": ["ultra", "negra", "cereza", "zero","sugar","cukru"],
+    "imagen": "imagenes/ultra-black.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "2026-07-24",
+    "pais_adquisicion": "PT",
+    "lugar_especifico": "Fragfuel, Porto, Portugal"
+  },
+  {
+    "nombre": "Monster Ultra Peachy Keen (Zero Sugar)",
+    "tags": ["ultra", "melocoton", "zero","sugar"],
+    "imagen": "imagenes/ultra-peachy-keen.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Ultra Peachy Keen (Zero Sugar)",
+    "tags": ["ultra", "melocoton", "zero","sugar"],
+    "imagen": "imagenes/ultra-peachy-keen-jp.jpg",
+    "nelly": true,
+    "es_japonesa": true,
+    "fecha_adquisicion": "2024-04",
+    "pais_adquisicion": "JP",
+    "lugar_especifico": "Japon"
+  },
+  {
+    "nombre": "Monster Ultra Strawberry Dreams (Zero Sugar)",
+    "tags": ["ultra", "fresa", "rosa", "zero","sugar"],
+    "imagen": "imagenes/ultra-strawberry-dreams.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Ultra Fantasy Ruby Red",
+    "tags": ["ultra", "roja", "cereza", "zero"],
+    "imagen": "imagenes/ultra-ruby-red.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Ultra Fantasy Ruby Red",
+    "tags": ["ultra", "roja", "cereza", "zero"],
+    "imagen": "imagenes/ultra-ruby-red-jp.jpg",
+    "nelly": false,
+    "es_japonesa": true,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "JP",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Juiced Pipeline Punch",
+    "tags": ["juiced", "juice", "rosa", "hawaiano", "frutal"],
+    "imagen": "imagenes/pipeline-punch.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Juiced Pipeline Punch",
+    "tags": ["juiced", "juice", "rosa", "hawaiano", "frutal"],
+    "imagen": "imagenes/pipeline-punch-jp.jpg",
+    "nelly": true,
+    "es_japonesa": true,
+    "fecha_adquisicion": "2024-04",
+    "pais_adquisicion": "JP",
+    "lugar_especifico": "Japon"
+  },
+  {
+    "nombre": "Monster Juiced Pacific Punch",
+    "tags": ["juiced", "juice", "roja", "ponche"],
+    "imagen": "imagenes/pacific-punch.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Juiced Monarch",
+    "tags": ["juiced", "juice", "naranja", "mariposa", "melocoton","monarch", "papillon"],
+    "imagen": "imagenes/monarch.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Juiced Aussie Lemonade",
+    "tags": ["juiced", "juice", "azul", "limonada"],
+    "imagen": "imagenes/aussie-lemonade.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Juiced Aussie Lemonade",
+    "tags": ["juiced", "juice", "azul", "limonada"],
+    "imagen": "imagenes/aussie-lemonade-jp.jpg",
+    "nelly": true,
+    "es_japonesa": true,
+    "fecha_adquisicion": "2024-04",
+    "pais_adquisicion": "JP",
+    "lugar_especifico": "Japon"
+  },
+  {
+    "nombre": "Monster Juiced Khaotic",
+    "tags": ["juiced", "juice", "amarilla", "naranja"],
+    "imagen": "imagenes/khaotic.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Juiced Khaos",
+    "tags": ["amarilla", "naranja"],
+    "imagen": "imagenes/khaos.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Juiced Khaos",
+    "tags": ["amarilla", "naranja"],
+    "imagen": "imagenes/khaos-jp.jpg",
+    "nelly": true,
+    "es_japonesa": true,
+    "fecha_adquisicion": "2024-04",
+    "pais_adquisicion": "JP",
+    "lugar_especifico": "Japon"
+  },
+  {
+    "nombre": "Monster Juiced Bad Apple",
+    "tags": ["juiced", "juice", "manzana", "verde"],
+    "imagen": "imagenes/bad-apple.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Juiced Bad Apple",
+    "tags": ["juiced", "juice", "manzana", "verde"],
+    "imagen": "imagenes/bad-apple-jp.jpg",
+    "nelly": false,
+    "es_japonesa": true,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "JP",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Juiced Ripper",
+    "tags": ["juiced", "juice", "amarilla", "frutas"],
+    "imagen": "imagenes/ripper-amarilla.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Juiced Ripper",
+    "tags": ["juiced", "juice", "amarilla", "frutas"],
+    "imagen": "imagenes/ripper-amarilla-jp.jpg",
+    "nelly": false,
+    "es_japonesa": true,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "JP",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Juiced Ripper",
+    "tags": ["juiced", "juice", "negra", "frutas"],
+    "imagen": "imagenes/ripper-negra.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Juiced Mixxd Punch",
+    "tags": ["juiced", "juice", "morada", "fruta"],
+    "imagen": "imagenes/mixxd.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster VR46 The Doctor",
+    "tags": ["rossi", "vr46", "amarilla", "limon"],
+    "imagen": "imagenes/vr46.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster VR46 The Doctor",
+    "tags": ["rossi", "vr46", "amarilla", "limon"],
+    "imagen": "imagenes/vr46-jp.jpg",
+    "nelly": true,
+    "es_japonesa": true,
+    "fecha_adquisicion": "2024-04",
+    "pais_adquisicion": "JP",
+    "lugar_especifico": "Japon"
+  },
+  {
+    "nombre": "Monster Lewis Hamilton Zero Sugar",
+    "tags": ["full", "throttle","lewis", "hamilton", "zero", "lh44","sugar"],
+    "imagen": "imagenes/lewis-hamilton-zero.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Lewis Hamilton",
+    "tags": ["full", "throttle","lewis", "hamilton", "lh44","rojo"],
+    "imagen": "imagenes/lewis-hamilton-rojo.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Rehab Tea + Lemonade (Recover)",
+    "tags": ["rehab", "te", "limonada", "sin gas"],
+    "imagen": "imagenes/rehab-lemonade-recover.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Rehab Tea + Lemonade",
+    "tags": ["rehab", "te", "limonada", "sin gas"],
+    "imagen": "imagenes/rehab-lemonade.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Rehab Tea + Peach (Recover)",
+    "tags": ["rehab", "te", "melocoton", "sin gas"],
+    "imagen": "imagenes/rehab-peach-recover.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Rehab Green Tea (Recover)",
+    "tags": ["rehab", "te", "verde"],
+    "imagen": "imagenes/rehab-green-tea-recover.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Java Mean Bean",
+    "tags": ["java", "cafe", "vainilla"],
+    "imagen": "imagenes/java-mean-bean.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Java Loca Moca",
+    "tags": ["java", "cafe", "moca", "chocolate"],
+    "imagen": "imagenes/java-loca-moca.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "GB",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Java Swiss Chocolate",
+    "tags": ["java", "cafe", "moca", "chocolate"],
+    "imagen": "imagenes/java-swiss-chocolate.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Java Lo-Ball",
+    "tags": ["java", "cafe", "lo-ball"],
+    "imagen": "imagenes/java-lo-ball.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Java Vainilla Light",
+    "tags": ["java", "cafe", "light", "vainilla"],
+    "imagen": "imagenes/java-vainilla-light.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Energy Brew Übermonster",
+    "tags": ["brew", "übermonster"],
+    "imagen": "imagenes/brew-ubermonster.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Energy Brew Übermonster (Cristal)",
+    "tags": ["brew", "übermonster","cristal"],
+    "imagen": "imagenes/brew-ubermonster-cristal.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Heavy Metal",
+    "tags": ["heavy","metal"],
+    "imagen": "imagenes/heavy-metal.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Killer Brew Triple Shot Mean Bean",
+    "tags": ["vainilla", "killer","brew", "triple", "shot"],
+    "imagen": "imagenes/killer-brew-triple-shot-mean-bean.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Killer Brew Triple Shot Loca Moca",
+    "tags": ["moca", "chocolate", "killer","brew", "triple", "shot"],
+    "imagen": "imagenes/killer-brew-triple-shot-loca-moca.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Cuba-Libre",
+    "tags": ["japon", "cuba libre", "exclusiva", "355ml"],
+    "imagen": "imagenes/cuba-libre-jp.jpg",
+    "nelly": false,
+    "es_japonesa": true,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "JP",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Ultra Gold Zero Sugar",
+    "tags": ["ultra", "dorado", "zero", "pina"],
+    "imagen": "imagenes/ultra-gold.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Zero Sugar",
+    "tags": ["origial","zero", "verde", "plata","sugar"],
+    "imagen": "imagenes/zero-sugar.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Zero Sugar",
+    "tags": ["original","zero", "azul", "plata","sugar"],
+    "imagen": "imagenes/zero-sugar-original.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Zero Sugar",
+    "tags": ["original","zero", "azul", "plata","sugar","fondo"],
+    "imagen": "imagenes/zero-sugar-azul-fondo.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Zero Sugar",
+    "tags": ["original","zero", "azul", "plata","sugar","fondo"],
+    "imagen": "imagenes/zero-sugar-azul-fondo-jp.jpg",
+    "nelly": true,
+    "es_japonesa": true,
+    "fecha_adquisicion": "2024-04",
+    "pais_adquisicion": "JP",
+    "lugar_especifico": "Japon"
+  },
+  {
+    "nombre": "Monster Full Throttle Zero Sugar",
+    "tags": ["full", "throttle","zero","sugar","lh44","lewis","hamilton"],
+    "imagen": "imagenes/full-throttle-zero.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Lando Norris Zero Sugar",
+    "tags": ["lando", "norris", "zero", "sugar", "dorada"],
+    "imagen": "imagenes/lando-norris-zero-sugar-dorada.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "2026-07-23",
+    "pais_adquisicion": "PT",
+    "lugar_especifico": "Lisboa, Portugal"
+  },
+  {
+    "nombre": "Monster Lando Norris Zero Sugar",
+    "tags": ["lando", "norris", "zero", "sugar", "verde"],
+    "imagen": "imagenes/lando-norris-zero-sugar-verde.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Juiced Rio Punch",
+    "tags": ["juiced", "juice", "amarilla", "verde", "rio"],
+    "imagen": "imagenes/rio-punch.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Juiced Viking Berry",
+    "tags": ["juiced", "juice", "viking", "berry", "frutos rojos"],
+    "imagen": "imagenes/viking-berry.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "GB",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Rehab Tea + Wild Berry (Recover)",
+    "tags": ["rehab", "te", "frutas del bosque", "sin gas"],
+    "imagen": "imagenes/rehab-wild-berry-recover.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "2026-07-16",
+    "pais_adquisicion": "ES",
+    "lugar_especifico": "Alcampo, Mallorca, España"
+  },
+  {
+    "nombre": "Monster Juice Strawberry Lemonade",
+    "tags": ["juiced", "juice", "blanca", "aguila"],
+    "imagen": "imagenes/juice-strawberry-lemonade.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "2026-07-24",
+    "pais_adquisicion": "PT",
+    "lugar_especifico": "Fragfuel, Porto, Portugal"
+  },
+  {
+    "nombre": "Monster Ultra Wild Passion (Zero Sugar)",
+    "tags": ["ultra", "zero"],
+    "imagen": "imagenes/ultra-wild-passion-zero-sugar.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "2026-07-24",
+    "pais_adquisicion": "PT",
+    "lugar_especifico": "Fragfuel, Porto, Portugal"
+  },
+  {
+    "nombre": "Monster Ultra Punk Punch (Zero Sugar)",
+    "tags": ["ultra", "punch", "zero"],
+    "imagen": "imagenes/ultra-punk-punch-zero-sugar.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "2026-07-24",
+    "pais_adquisicion": "PT",
+    "lugar_especifico": "Fragfuel, Porto, Portugal"
+  },
+  {
+    "nombre": "Monster Ultra Red White & Blue Razz Zero Sugar",
+    "tags": ["ultra", "roja", "blanca", "azul", "zero", "bandera"],
+    "imagen": "imagenes/ultra-red-white-blue-razz-zero-sugar.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster M3 (Cristal)",
+    "tags": ["m3", "cristal", "Japon", "150ml"],
+    "imagen": "imagenes/m3-cristal-jp.jpg",
+    "nelly": true,
+    "es_japonesa": true,
+    "fecha_adquisicion": "2024-04",
+    "pais_adquisicion": "JP",
+    "lugar_especifico": "Japon"
+  },
+  {
+    "nombre": "Monster M3 (Lata)",
+    "tags": ["m3", "Japon", "160ml"],
+    "imagen": "imagenes/m3-lata-jp.jpg",
+    "nelly": true,
+    "es_japonesa": true,
+    "fecha_adquisicion": "2024-04",
+    "pais_adquisicion": "JP",
+    "lugar_especifico": "Japon"
+  },
+  {
+    "nombre": "Monster Ultra Vice Guava (Zero Sugar)",
+    "tags": ["ultra", "guayaba", "zero", "sugar"],
+    "imagen": "imagenes/ultra-vice-guava.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Ultra Vice Guava (Zero Sugar)",
+    "tags": ["ultra", "guayaba", "zero", "sugar"],
+    "imagen": "imagenes/ultra-vice-guava-jp.jpg",
+    "nelly": false,
+    "es_japonesa": true,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "JP",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Reserve Peaches n'Crème",
+    "tags": ["reserve", "melocoton", "crema"],
+    "imagen": "imagenes/reserve-peaches-cream.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Reserve Kiwi Strawberry",
+    "tags": ["reserve", "kiwi", "fresa"],
+    "imagen": "imagenes/reserve-kiwi-strawberry.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Java Farmer's Oats",
+    "tags": ["java", "cafe", "avena"],
+    "imagen": "imagenes/java-farmers-oats.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Java Salted Caramel",
+    "tags": ["java", "cafe", "caramelo"],
+    "imagen": "imagenes/java-salted-caramel.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Java Cold Brew Sweet Black",
+    "tags": ["java", "cafe", "cold brew"],
+    "imagen": "imagenes/java-cold-brew-sweet-black.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Java Cafe Latte",
+    "tags": ["java", "cafe", "cold brew", "latte"],
+    "imagen": "imagenes/java-cafe-latte.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Java Triple Shot Mocha",
+    "tags": ["java", "moca", "triple", "shot","mocha"],
+    "imagen": "imagenes/java-triple-shot-mocha.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Java Triple Shot French Vanilla",
+    "tags": ["java", "moca", "triple", "shot","franch","vanilla"],
+    "imagen": "imagenes/java-triple-shot-french-vanilla.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Java Irish Crème Irlandaise",
+    "tags": ["java", "moca", "triple", "shot","irish","cream","creme","irlandaise"],
+    "imagen": "imagenes/java-irish-creme-irlandaise.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Java Irish Crème",
+    "tags": ["java", "moca", "triple", "shot","irish","cream","creme"],
+    "imagen": "imagenes/java-irish-creme.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Rehab Watermelon (Recover)",
+    "tags": ["rehab", "sandia", "sin gas"],
+    "imagen": "imagenes/rehab-watermelon-recover.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Dragon Peach",
+    "tags": ["dragon", "peach"],
+    "imagen": "imagenes/dragon-peach.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Dragon Lemon",
+    "tags": ["dragon", "lemon"],
+    "imagen": "imagenes/dragon-lemon.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Dragon Green Tea",
+    "tags": ["dragon", "te verde"],
+    "imagen": "imagenes/dragon-green-tea.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Dragon White Tea",
+    "tags": ["dragon", "te", "blanco"],
+    "imagen": "imagenes/dragon-white-tea.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Dragon Yerba Mate",
+    "tags": ["dragon", "yerba mate"],
+    "imagen": "imagenes/dragon-yerba-mate.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Gronk Energy",
+    "tags": ["gronk", "deportes"],
+    "imagen": "imagenes/gronk-energy.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Punch Dub Edition (Baller's Blend)",
+    "tags": ["dub", "edicion especial", "punch","roja","ballers","blend"],
+    "imagen": "imagenes/dub-edition-ballers-blend.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Punch Dub Edition (Bad Dog)",
+    "tags": ["dub", "edicion especial", "punch","violeta","bad","dog"],
+    "imagen": "imagenes/dub-edition-bad-dog.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Tour Water Sparkling Deep Well Water",
+    "tags": ["tour water", "agua con gas", "festival"],
+    "imagen": "imagenes/tour-water-sparkling.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Tour Water Deep Well Water",
+    "tags": ["tour water", "agua con gas", "festival"],
+    "imagen": "imagenes/tour-water-deep-well-water.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Nitro Super Dry",
+    "tags": ["nitro", "super", "dry"],
+    "imagen": "imagenes/nitro-super-dry.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Nitro Cosmic Peach",
+    "tags": ["nitro", "cosmic", "peach"],
+    "imagen": "imagenes/nitro-cosmic-peach.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Mule Ginger Brew",
+    "tags": ["mule", "ginger", "brew"],
+    "imagen": "imagenes/mule-ginger-brew.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster VR46 Zero Sugar",
+    "tags": ["rossi", "vr46", "zero", "sugar","azul"],
+    "imagen": "imagenes/vr46-zero-sugar.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Espresso Triple Shot (Espresso Milk)",
+    "tags": ["Espresso", "triple", "shot", "milk","rojo"],
+    "imagen": "imagenes/espresso-triple-shot-espresso-milk.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Espresso Triple Shot (Salted Caramel)",
+    "tags": ["Espresso", "triple", "shot", "caramel","blanco"],
+    "imagen": "imagenes/espresso-triple-shot-salted-caramel.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Espresso Triple Shot (Vanilla)",
+    "tags": ["Espresso", "triple", "shot", "vanilla","azul"],
+    "imagen": "imagenes/espresso-triple-shot-vanilla.jpg",
+    "nelly": true,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Juice Voodoo Grape",
+    "tags": ["juiced","juice", "voodoo", "grape"],
+    "imagen": "imagenes/juiced-voodoo-grape.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Java Kona Blend",
+    "tags": ["java", "cafe", "kona", "hawai"],
+    "imagen": "imagenes/java-kona-blend.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Java Irish Blend",
+    "tags": ["java", "cafe", "irish", "blend"],
+    "imagen": "imagenes/java-irish-blend.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Java Toffee",
+    "tags": ["java", "cafe", "toffee", "caramelo"],
+    "imagen": "imagenes/java-toffee.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Java Chai Hai",
+    "tags": ["java", "chai", "te", "cafe"],
+    "imagen": "imagenes/java-chai-hai.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Java Nut Up",
+    "tags": ["java", "cafe", "nueces"],
+    "imagen": "imagenes/java-nut-up.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Java Big Black",
+    "tags": ["java", "cafe", "negro"],
+    "imagen": "imagenes/java-big-black.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Java Russian",
+    "tags": ["java", "cafe", "russian"],
+    "imagen": "imagenes/java-russian.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Java Oatmilk",
+    "tags": ["java", "cafe", "avena", "oatmilk"],
+    "imagen": "imagenes/java-oatmilk.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Java Cold Brew Latte",
+    "tags": ["java", "cafe", "cold","brew", "latte"],
+    "imagen": "imagenes/java-cold-brew-latte.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster X-Presso Hammer",
+    "tags": ["espresso", "x-presso", "hammer", "cafe"],
+    "imagen": "imagenes/x-presso-hammer.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster X-Presso Midnite",
+    "tags": ["espresso", "x-presso", "midnite", "cafe"],
+    "imagen": "imagenes/x-presso-midnite.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Rehab Orangeade",
+    "tags": ["rehab", "te", "naranja", "orangeade", "sin gas"],
+    "imagen": "imagenes/rehab-orangeade.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Rehab Orangeade (Recover)",
+    "tags": ["rehab", "te", "naranja", "orangeade", "sin gas"],
+    "imagen": "imagenes/rehab-orangeade-recover.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Rehab Raspberry Tea",
+    "tags": ["rehab", "te", "frambuesa", "raspberry", "sin gas"],
+    "imagen": "imagenes/rehab-raspberry-tea.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Rehab Raspberry Tea (Recover)",
+    "tags": ["rehab", "te", "frambuesa", "raspberry", "sin gas"],
+    "imagen": "imagenes/rehab-raspberry-tea-recover.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Rehab Pink Lemonade",
+    "tags": ["rehab", "te", "limonada rosa", "pink lemonade", "sin gas"],
+    "imagen": "imagenes/rehab-pink-lemonade-tea.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Rehab Rojo Tea",
+    "tags": ["rehab", "te rojo", "melocoton", "sin gas"],
+    "imagen": "imagenes/rehab-rojo-tea.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Rehab Strawberry Lemonade (Recover)",
+    "tags": ["rehab", "te", "fresa", "limonada", "sin gas"],
+    "imagen": "imagenes/rehab-strawberry-lemonade-recover.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Rehab Protean",
+    "tags": ["rehab", "te", "proteina", "sin gas"],
+    "imagen": "imagenes/rehab-protean.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Nitrous Anti-Gravity",
+    "tags": ["nitrous", "nitro", "anti-gravity", "citrico"],
+    "imagen": "imagenes/nitrous-anti-gravity.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Nitrous Killer-B",
+    "tags": ["nitrous", "nitro", "killer-b", "miel"],
+    "imagen": "imagenes/nitrous-killer-b.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Nitrous Black Ice (Extra Strength)",
+    "tags": ["nitrous", "nitro", "black ice", "extra strength"],
+    "imagen": "imagenes/nitrous-black-ice.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster MAXX Solaris",
+    "tags": ["maxx", "nitro", "solaris", "citrico"],
+    "imagen": "imagenes/maxx-solaris.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster MAXX Eclipse",
+    "tags": ["maxx", "nitro", "eclipse", "bayas"],
+    "imagen": "imagenes/maxx-eclipse.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster MAXX Rad Red",
+    "tags": ["maxx", "nitro", "rad red", "ponche"],
+    "imagen": "imagenes/maxx-rad-red.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster MAXX Mango Matic",
+    "tags": ["maxx", "nitro", "mango matic", "mango"],
+    "imagen": "imagenes/maxx-mango-matic.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Juice M-80",
+    "tags": ["juice", "juiced", "m-80", "amarilla", "frutal","m80"],
+    "imagen": "imagenes/m80.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Cuba-Lima",
+    "tags": ["cuba lima", "lima", "cola"],
+    "imagen": "imagenes/cuba-lima.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Energy BFC Original (946ml)",
+    "tags": ["bfc", "original", "946ml", "32oz", "grande"],
+    "imagen": "imagenes/bfc-original.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Lo-Carb BFC (946ml)",
+    "tags": ["bfc", "lo-carb", "946ml", "32oz", "grande"],
+    "imagen": "imagenes/bfc-lo-carb.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Heavy Metal BFC (946ml)",
+    "tags": ["bfc", "heavy metal", "946ml", "32oz", "grande"],
+    "imagen": "imagenes/bfc-heavy-metal.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Unleaded (Zero Caffeine)",
+    "tags": ["unleaded", "sin cafeina", "zero caffeine", "verde"],
+    "imagen": "imagenes/unleaded.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster M-100 Ghost",
+    "tags": ["m-100", "ghost", "edicion limitada"],
+    "imagen": "imagenes/m100-ghost.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster M-100 Phantom",
+    "tags": ["m-100", "phantom", "edicion limitada"],
+    "imagen": "imagenes/m100-phantom.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Dragon Raspberry Tea",
+    "tags": ["dragon", "te", "frambuesa", "raspberry"],
+    "imagen": "imagenes/dragon-raspberry-tea.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Muscle Chocolate",
+    "tags": ["muscle", "proteina", "chocolate"],
+    "imagen": "imagenes/muscle-chocolate.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Muscle Vanilla",
+    "tags": ["muscle", "proteina", "vanilla", "vainilla"],
+    "imagen": "imagenes/muscle-vanilla.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Muscle Strawberry",
+    "tags": ["muscle", "proteina", "strawberry", "fresa"],
+    "imagen": "imagenes/muscle-strawberry.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Muscle Coffee",
+    "tags": ["muscle", "proteina", "coffee", "cafe"],
+    "imagen": "imagenes/muscle-coffee.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Muscle Banana",
+    "tags": ["muscle", "proteina", "banana", "platano"],
+    "imagen": "imagenes/muscle-banana.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "Monster Energy Fury",
+    "tags": ["fury", "edicion internacional"],
+    "imagen": "imagenes/fury.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
+  },
+  {
+    "nombre": "The Beast Unleaded / Nasty Beast",
+    "tags": ["beast", "alcohol", "hard tea"],
+    "imagen": "imagenes/beast-unleashed.jpg",
+    "nelly": false,
+    "es_japonesa": false,
+    "fecha_adquisicion": "",
+    "pais_adquisicion": "",
+    "lugar_especifico": ""
   }
 ]

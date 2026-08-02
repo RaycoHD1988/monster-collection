@@ -14,16 +14,25 @@ function mostrarLatas(lista) {
   container.innerHTML = '';
 
   if (lista.length === 0) {
-    container.innerHTML = '<p style="grid-column: 1/-1; text-align: center; color: #888;">No se encontró ninguna lata con ese nombre.</p>';
+    container.innerHTML = '<p style="grid-column: 1/-1; text-align: center; color: #888;">No se encontró ninguna lata con ese término.</p>';
     return;
   }
 
   lista.forEach(lata => {
     const card = document.createElement('div');
-    card.className = 'card';
+    
+    // Comprobar la propiedad nelly (true/false)
+    const tieneLata = lata.nelly === true;
+    const estadoClase = tieneLata ? 'tiene' : 'no-tiene';
+    const textoBadge = tieneLata ? '✓ En colección' : '✗ Falta';
+
+    card.className = `card ${estadoClase}`;
     card.innerHTML = `
       <img src="${lata.imagen}" alt="${lata.nombre}" loading="lazy">
       <h3>${lata.nombre}</h3>
+      <div>
+        <span class="badge">${textoBadge}</span>
+      </div>
     `;
     container.appendChild(card);
   });

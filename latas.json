@@ -63,11 +63,11 @@
     "nombre": "Monster Energy Original (Oscar Piastri Edition)",
     "tags": ["original", "clasica", "verde","Oscar","piastri","edicion","limitada"],
     "imagen": "imagenes/original-oscar-piastri.jpg",
-    "nelly": false,
+    "nelly": true,
     "es_japonesa": false,
-    "fecha_adquisicion": "",
-    "pais_adquisicion": "",
-    "lugar_especifico": ""
+    "fecha_adquisicion": "2026-08-04",
+    "pais_adquisicion": "ES",
+    "lugar_especifico": "Carrefour, Mallorca, España"
   },
   {
     "nombre": "Monster Energy Original (Apex Edition)",
@@ -1223,11 +1223,11 @@
     "nombre": "Monster VR46 Zero Sugar",
     "tags": ["rossi", "vr46", "zero", "sugar","azul"],
     "imagen": "imagenes/vr46-zero-sugar.jpg",
-    "nelly": false,
+    "nelly": true,
     "es_japonesa": false,
-    "fecha_adquisicion": "",
-    "pais_adquisicion": "",
-    "lugar_especifico": ""
+    "fecha_adquisicion": "2026-09-06",
+    "pais_adquisicion": "NO",
+    "lugar_especifico": "Noruega, viaje de Maria."
   },
   {
     "nombre": "Monster Espresso Triple Shot (Espresso Milk)",

@@ -6,8 +6,8 @@
     "nelly": true,
     "es_japonesa": false,
     "fecha_adquisicion": "",
-    "pais_adquisicion": "",
-    "lugar_especifico": "" 
+    "pais_adquisicion": "ES",
+    "lugar_especifico": "Mercadona, Mallorca, España"
   },
   {
     "nombre": "Monster Energy Ultra White (Zero Ultra)",
@@ -46,8 +46,8 @@
     "nelly": true,
     "es_japonesa": false,
     "fecha_adquisicion": "",
-    "pais_adquisicion": "",
-    "lugar_especifico": ""
+    "pais_adquisicion": "ES",
+    "lugar_especifico": "Carrefour, Mallorca, España"
   },
   {
     "nombre": "Monster Energy Ultra Paradise (Zero Sugar)",
@@ -76,8 +76,8 @@
     "nelly": true,
     "es_japonesa": false,
     "fecha_adquisicion": "",
-    "pais_adquisicion": "",
-    "lugar_especifico": ""
+    "pais_adquisicion": "ES",
+    "lugar_especifico": "Carrefour, Mallorca, España"
   },
   {
     "nombre": "Monster Energy Original",
@@ -86,8 +86,8 @@
     "nelly": true,
     "es_japonesa": false,
     "fecha_adquisicion": "",
-    "pais_adquisicion": "",
-    "lugar_especifico": ""
+    "pais_adquisicion": "ES",
+    "lugar_especifico": "Mercadona, Mallorca, España"
   },
   {
     "nombre": "Monster Energy Original",
@@ -105,9 +105,9 @@
     "imagen": "imagenes/original-cristal-jp.jpg",
     "nelly": false,
     "es_japonesa": true,
-    "fecha_adquisicion": "",
+    "fecha_adquisicion": "2024-04",
     "pais_adquisicion": "JP",
-    "lugar_especifico": ""
+    "lugar_especifico": "Japon"
   },
   {
     "nombre": "Monster Energy Import",
@@ -126,8 +126,8 @@
     "nelly": true,
     "es_japonesa": false,
     "fecha_adquisicion": "",
-    "pais_adquisicion": "",
-    "lugar_especifico": ""
+    "pais_adquisicion": "ES",
+    "lugar_especifico": "Spa donde recarga moviles, Mallorca, España"
   },
   {
     "nombre": "Monster Energy Mega (Tapón de Rosca)",
@@ -196,8 +196,8 @@
     "nelly": true,
     "es_japonesa": false,
     "fecha_adquisicion": "",
-    "pais_adquisicion": "",
-    "lugar_especifico": ""
+    "pais_adquisicion": "ES",
+    "lugar_especifico": "Mallorca, España"
   },
   {
     "nombre": "Monster Assault (Negra)",
@@ -216,8 +216,8 @@
     "nelly": true,
     "es_japonesa": false,
     "fecha_adquisicion": "",
-    "pais_adquisicion": "",
-    "lugar_especifico": ""
+    "pais_adquisicion": "ES",
+    "lugar_especifico": "Carrefour, Mallorca, España"
   },
   {
     "nombre": "Monster Reserve Watermelon",
@@ -236,8 +236,8 @@
     "nelly": true,
     "es_japonesa": false,
     "fecha_adquisicion": "",
-    "pais_adquisicion": "",
-    "lugar_especifico": ""
+    "pais_adquisicion": "ES",
+    "lugar_especifico": "Mallorca, España"
   },
   {
     "nombre": "Monster Reserve Orange Dreamsicle",
@@ -286,8 +286,8 @@
     "nelly": true,
     "es_japonesa": false,
     "fecha_adquisicion": "",
-    "pais_adquisicion": "",
-    "lugar_especifico": ""
+    "pais_adquisicion": "ES",
+    "lugar_especifico": "Carrefour, Mallorca, España"
   },
   {
     "nombre": "Monster Ultra Fiesta Zero Sugar",
@@ -296,8 +296,8 @@
     "nelly": true,
     "es_japonesa": false,
     "fecha_adquisicion": "",
-    "pais_adquisicion": "",
-    "lugar_especifico": ""
+    "pais_adquisicion": "ES",
+    "lugar_especifico": "Carrefour, Mallorca, España"
   },
   {
     "nombre": "Monster Ultra Fiesta Mango Zero Sugar",
@@ -306,8 +306,8 @@
     "nelly": true,
     "es_japonesa": false,
     "fecha_adquisicion": "",
-    "pais_adquisicion": "",
-    "lugar_especifico": ""
+    "pais_adquisicion": "ES",
+    "lugar_especifico": "Carrefour, Mallorca, España"
   },
   {
     "nombre": "Monster Ultra Watermelon (Zero Sugar)",
@@ -316,8 +316,8 @@
     "nelly": true,
     "es_japonesa": false,
     "fecha_adquisicion": "",
-    "pais_adquisicion": "",
-    "lugar_especifico": ""
+    "pais_adquisicion": "ES",
+    "lugar_especifico": "Carrefour, Mallorca, España"
   },
   {
     "nombre": "Monster Ultra Citrion (Zero Sugar)",
@@ -336,8 +336,8 @@
     "nelly": true,
     "es_japonesa": false,
     "fecha_adquisicion": "",
-    "pais_adquisicion": "",
-    "lugar_especifico": ""
+    "pais_adquisicion": "ES",
+    "lugar_especifico": "Granada, España"
   },
   {
     "nombre": "Monster Ultra Violet (Zero Sugar)",
@@ -356,8 +356,8 @@
     "nelly": true,
     "es_japonesa": false,
     "fecha_adquisicion": "",
-    "pais_adquisicion": "",
-    "lugar_especifico": ""
+    "pais_adquisicion": "ES",
+    "lugar_especifico": "Carrefour, Mallorca, España"
   },
   {
     "nombre": "Monster Ultra Blue (Zero Sugar)",
@@ -366,8 +366,8 @@
     "nelly": true,
     "es_japonesa": false,
     "fecha_adquisicion": "",
-    "pais_adquisicion": "",
-    "lugar_especifico": ""
+    "pais_adquisicion": "ES",
+    "lugar_especifico": "Madrid, España"
   },
   {
     "nombre": "Monster Ultra Blue Hawaiian (Zero Sugar)",
@@ -375,9 +375,9 @@
     "imagen": "imagenes/ultra-blue-hawaiian.jpg",
     "nelly": true,
     "es_japonesa": false,
-    "fecha_adquisicion": "",
-    "pais_adquisicion": "",
-    "lugar_especifico": ""
+    "fecha_adquisicion": "2025-04",
+    "pais_adquisicion": "GB",
+    "lugar_especifico": "Londres, Reino Unido"
   },
   {
     "nombre": "Monster Ultra Sunrise (Zero Sugar)",
@@ -406,8 +406,8 @@
     "nelly": true,
     "es_japonesa": false,
     "fecha_adquisicion": "",
-    "pais_adquisicion": "",
-    "lugar_especifico": ""
+    "pais_adquisicion": "ES",
+    "lugar_especifico": "Carrefour, Mallorca, España"
   },
   {
     "nombre": "Monster Ultra Peachy Keen (Zero Sugar)",
@@ -426,8 +426,8 @@
     "nelly": true,
     "es_japonesa": false,
     "fecha_adquisicion": "",
-    "pais_adquisicion": "",
-    "lugar_especifico": ""
+    "pais_adquisicion": "ES",
+    "lugar_especifico": "Carrefour, Mallorca, España"
   },
   {
     "nombre": "Monster Ultra Fantasy Ruby Red",
@@ -435,9 +435,9 @@
     "imagen": "imagenes/ultra-ruby-red.jpg",
     "nelly": true,
     "es_japonesa": false,
-    "fecha_adquisicion": "",
-    "pais_adquisicion": "",
-    "lugar_especifico": ""
+    "fecha_adquisicion": "2025-04",
+    "pais_adquisicion": "GB",
+    "lugar_especifico": "Londres, Reino Unido"
   },
   {
     "nombre": "Monster Ultra Fantasy Ruby Red",
@@ -456,8 +456,8 @@
     "nelly": true,
     "es_japonesa": false,
     "fecha_adquisicion": "",
-    "pais_adquisicion": "",
-    "lugar_especifico": ""
+    "pais_adquisicion": "ES",
+    "lugar_especifico": "Carrefour, Mallorca, España"
   },
   {
     "nombre": "Monster Juiced Pipeline Punch",
@@ -476,8 +476,8 @@
     "nelly": true,
     "es_japonesa": false,
     "fecha_adquisicion": "",
-    "pais_adquisicion": "",
-    "lugar_especifico": ""
+    "pais_adquisicion": "ES",
+    "lugar_especifico": "Carrefour, Mallorca, España"
   },
   {
     "nombre": "Monster Juiced Monarch",
@@ -486,8 +486,8 @@
     "nelly": true,
     "es_japonesa": false,
     "fecha_adquisicion": "",
-    "pais_adquisicion": "",
-    "lugar_especifico": ""
+    "pais_adquisicion": "ES",
+    "lugar_especifico": "Carrefour, Mallorca, España"
   },
   {
     "nombre": "Monster Juiced Aussie Lemonade",
@@ -496,8 +496,8 @@
     "nelly": true,
     "es_japonesa": false,
     "fecha_adquisicion": "",
-    "pais_adquisicion": "",
-    "lugar_especifico": ""
+    "pais_adquisicion": "ES",
+    "lugar_especifico": "Carrefour, Mallorca, España"
   },
   {
     "nombre": "Monster Juiced Aussie Lemonade",
@@ -516,8 +516,8 @@
     "nelly": true,
     "es_japonesa": false,
     "fecha_adquisicion": "",
-    "pais_adquisicion": "",
-    "lugar_especifico": ""
+    "pais_adquisicion": "ES",
+    "lugar_especifico": "Carrefour, Mallorca, España"
   },
   {
     "nombre": "Monster Juiced Khaos",
@@ -546,8 +546,8 @@
     "nelly": true,
     "es_japonesa": false,
     "fecha_adquisicion": "",
-    "pais_adquisicion": "",
-    "lugar_especifico": ""
+    "pais_adquisicion": "ES",
+    "lugar_especifico": "Carrefour, Mallorca, España"
   },
   {
     "nombre": "Monster Juiced Bad Apple",
@@ -566,8 +566,8 @@
     "nelly": true,
     "es_japonesa": false,
     "fecha_adquisicion": "",
-    "pais_adquisicion": "",
-    "lugar_especifico": ""
+    "pais_adquisicion": "ES",
+    "lugar_especifico": "Carrefour, Mallorca, España"
   },
   {
     "nombre": "Monster Juiced Ripper",
@@ -586,8 +586,8 @@
     "nelly": true,
     "es_japonesa": false,
     "fecha_adquisicion": "",
-    "pais_adquisicion": "",
-    "lugar_especifico": ""
+    "pais_adquisicion": "ES",
+    "lugar_especifico": "Carrefour, Mallorca, España"
   },
   {
     "nombre": "Monster Juiced Mixxd Punch",
@@ -596,8 +596,8 @@
     "nelly": true,
     "es_japonesa": false,
     "fecha_adquisicion": "",
-    "pais_adquisicion": "",
-    "lugar_especifico": ""
+    "pais_adquisicion": "ES",
+    "lugar_especifico": "Carrefour, Mallorca, España"
   },
   {
     "nombre": "Monster VR46 The Doctor",
@@ -606,8 +606,8 @@
     "nelly": true,
     "es_japonesa": false,
     "fecha_adquisicion": "",
-    "pais_adquisicion": "",
-    "lugar_especifico": ""
+    "pais_adquisicion": "ES",
+    "lugar_especifico": "Carrefour, Mallorca, España"
   },
   {
     "nombre": "Monster VR46 The Doctor",
@@ -626,8 +626,8 @@
     "nelly": true,
     "es_japonesa": false,
     "fecha_adquisicion": "",
-    "pais_adquisicion": "",
-    "lugar_especifico": ""
+    "pais_adquisicion": "ES",
+    "lugar_especifico": "Carrefour, Mallorca, España"
   },
   {
     "nombre": "Monster Lewis Hamilton",
@@ -695,9 +695,9 @@
     "imagen": "imagenes/java-loca-moca.jpg",
     "nelly": true,
     "es_japonesa": false,
-    "fecha_adquisicion": "",
+    "fecha_adquisicion": "2025-04",
     "pais_adquisicion": "GB",
-    "lugar_especifico": ""
+    "lugar_especifico": "Londres, Reino Unido"
   },
   {
     "nombre": "Monster Java Swiss Chocolate",
@@ -796,8 +796,8 @@
     "nelly": true,
     "es_japonesa": false,
     "fecha_adquisicion": "",
-    "pais_adquisicion": "",
-    "lugar_especifico": ""
+    "pais_adquisicion": "ES",
+    "lugar_especifico": "Carrefour, Mallorca, España"
   },
   {
     "nombre": "Monster Zero Sugar",
@@ -816,8 +816,8 @@
     "nelly": true,
     "es_japonesa": false,
     "fecha_adquisicion": "",
-    "pais_adquisicion": "",
-    "lugar_especifico": ""
+    "pais_adquisicion": "ES",
+    "lugar_especifico": "Mercadona, Mallorca, España"
   },
   {
     "nombre": "Monster Zero Sugar",
@@ -876,8 +876,8 @@
     "nelly": true,
     "es_japonesa": false,
     "fecha_adquisicion": "",
-    "pais_adquisicion": "",
-    "lugar_especifico": ""
+    "pais_adquisicion": "ES",
+    "lugar_especifico": "Tenerife, España"
   },
   {
     "nombre": "Monster Juiced Viking Berry",
@@ -885,9 +885,9 @@
     "imagen": "imagenes/viking-berry.jpg",
     "nelly": true,
     "es_japonesa": false,
-    "fecha_adquisicion": "",
+    "fecha_adquisicion": "2025-04",
     "pais_adquisicion": "GB",
-    "lugar_especifico": ""
+    "lugar_especifico": "Londres, Reino Unido"
   },
   {
     "nombre": "Monster Rehab Tea + Wild Berry (Recover)",
@@ -965,9 +965,9 @@
     "imagen": "imagenes/ultra-vice-guava.jpg",
     "nelly": true,
     "es_japonesa": false,
-    "fecha_adquisicion": "",
-    "pais_adquisicion": "",
-    "lugar_especifico": ""
+    "fecha_adquisicion": "2025-12",
+    "pais_adquisicion": "IT",
+    "lugar_especifico": "Milán, Italia"
   },
   {
     "nombre": "Monster Ultra Vice Guava (Zero Sugar)",
@@ -1065,9 +1065,9 @@
     "imagen": "imagenes/java-irish-creme-irlandaise.jpg",
     "nelly": true,
     "es_japonesa": false,
-    "fecha_adquisicion": "",
-    "pais_adquisicion": "",
-    "lugar_especifico": ""
+    "fecha_adquisicion": "2025-04",
+    "pais_adquisicion": "GB",
+    "lugar_especifico": "Londres, Reino Unido"
   },
   {
     "nombre": "Monster Java Irish Crème",
@@ -1216,8 +1216,8 @@
     "nelly": true,
     "es_japonesa": false,
     "fecha_adquisicion": "",
-    "pais_adquisicion": "",
-    "lugar_especifico": ""
+    "pais_adquisicion": "ES",
+    "lugar_especifico": "Mallorca, España"
   },
   {
     "nombre": "Monster VR46 Zero Sugar",
@@ -1256,8 +1256,8 @@
     "nelly": true,
     "es_japonesa": false,
     "fecha_adquisicion": "",
-    "pais_adquisicion": "",
-    "lugar_especifico": ""
+    "pais_adquisicion": "ES",
+    "lugar_especifico": "Mallorca, España"
   },
   {
     "nombre": "Monster Juice Voodoo Grape",
